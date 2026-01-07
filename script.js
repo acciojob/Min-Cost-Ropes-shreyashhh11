@@ -14,6 +14,7 @@ function mincost(arr)
 		let sum = first + second;
 
 		cost += sum;
+		arr.push(sum);
 	}
 	return cost;
 }
